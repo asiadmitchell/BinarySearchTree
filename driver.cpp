@@ -1,12 +1,8 @@
-// do not change anything in this file except to make it print out
-// your own name instead of "Your Name"
-
 // this code enables Visual Studio's memory leak checking.
 // Your code should not have memory leaks, and I will be
 // testing your code for this in Visual Studio.  The #ifdef
 // keeps this code from compiling in non-Windows environments.
-// But if you use a non-Windows environment, you are still
-// responsible for writing code with no memory leaks.
+
 #ifdef _WIN32
 #define _CRTDBG_MAP_ALLOC
 #include <stdlib.h>
@@ -63,7 +59,7 @@ int main()
 
 	data	aData;
 
-	cout << "CS260 - Lab4 - Preimum - Asia Mitchell"
+	cout << "Binary Search Tree - Asia Mitchell"
 		 << endl << endl
 		 << "Database Of Great Computer Scientists\n\n";
 
